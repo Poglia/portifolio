@@ -1,5 +1,7 @@
 import type { NextConfig } from "next";
 
+// Doesn't work anymore - Descontinued 
+
 const nextConfig: NextConfig = {
   webpack(config) {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
