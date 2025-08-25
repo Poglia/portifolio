@@ -42,6 +42,15 @@ export const HeroSection = () => {
       <HeroOrbit size={710} rotation={144}>
         <SparkleIcon styles="size-14 text-emerald-300/20"/>
       </HeroOrbit>
+      <HeroOrbit size={720} rotation={85}>
+        <div className="size-3 rounded-full bg-emerald-300/20"></div>
+      </HeroOrbit>
+      <HeroOrbit size={650} rotation={-10}>
+        <div className="size-2 rounded-full bg-emerald-300/20"></div>
+      </HeroOrbit>
+      <HeroOrbit size={520} rotation={-45}>
+        <div className="size-2 rounded-full bg-emerald-300/20"></div>
+      </HeroOrbit>
       <div className="container">
         <div className="flex flex-col items-center">
           <Image
