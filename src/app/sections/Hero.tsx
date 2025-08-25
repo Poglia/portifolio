@@ -6,6 +6,7 @@ import ArrowDown from "@/assets/svg/ArrowDown";
 import Image from "next/image";
 import { HeroOrbit } from "../components/HeroOrbit";
 import StarIcon from "@/assets/svg/Star";
+import SparkleIcon from "@/assets/svg/Sparkle";
 
 export const HeroSection = () => {
   return (
@@ -26,8 +27,20 @@ export const HeroSection = () => {
       <HeroOrbit size={550} rotation={20}>
         <StarIcon styles="size-12 text-emerald-300"/>
       </HeroOrbit>
-        <HeroOrbit size={590} rotation={98}>
+      <HeroOrbit size={590} rotation={98}>
         <StarIcon styles="size-8 text-emerald-300"/>
+      </HeroOrbit>
+      <HeroOrbit size={430} rotation={-14}>
+        <SparkleIcon styles="size-8 text-emerald-300/20"/>
+      </HeroOrbit>
+      <HeroOrbit size={440} rotation={79}>
+        <SparkleIcon styles="size-5 text-emerald-300/20"/>
+      </HeroOrbit>
+      <HeroOrbit size={530} rotation={178}>
+        <SparkleIcon styles="size-10 text-emerald-300/20"/>
+      </HeroOrbit>
+      <HeroOrbit size={710} rotation={144}>
+        <SparkleIcon styles="size-14 text-emerald-300/20"/>
       </HeroOrbit>
       <div className="container">
         <div className="flex flex-col items-center">
