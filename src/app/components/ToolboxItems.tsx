@@ -1,0 +1,53 @@
+import JavascriptIcon from "@/assets/svg/SquareJs";
+import HTMLIcon from "@/assets/svg/Html5";
+import CssIcon from "@/assets/svg/Css3";
+import GithubIcon from "@/assets/svg/Github";
+import ReactIcon from "@/assets/svg/React";
+import ChromeIcon from "@/assets/svg/Chrome";
+import { TechIcon } from "../components/TechIcon";
+import { twMerge } from "tailwind-merge";
+
+const toolboxItems = [
+  {
+    title: "Javascript",
+    IconType: JavascriptIcon,
+  },
+  {
+    title: "HTML5",
+    IconType: HTMLIcon,
+  },
+  {
+    title: "CSS3",
+    IconType: CssIcon,
+  },
+  {
+    title: "Github",
+    IconType: GithubIcon,
+  },
+  {
+    title: "React",
+    IconType: ReactIcon,
+  },
+  {
+    title: "Chrome",
+    IconType: ChromeIcon,
+  },
+];
+
+export const ToolboxItems = ({className}: {className?: string}) => {
+  return (
+    <div className={twMerge("flex  [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]", className)}>
+      <div className="flex flex-none py-0.5 gap-6 ">
+        {toolboxItems.map((item) => (
+          <div
+            key={item.title}
+            className="inline-flex items-center gap-4 py-2 px-3 outline outline-2 outline-white/10 rounded-lg"
+          >
+            <TechIcon component={item.IconType} />
+            <span className="font-semibold">{item.title}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
