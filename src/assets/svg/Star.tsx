@@ -1,5 +1,5 @@
 interface StarProps {
-    styles: string
+    styles?: string
 }
 
 const Star: React.FC<StarProps> = ({styles}) => {
