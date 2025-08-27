@@ -13,6 +13,12 @@
     }
 }
 
+@layer utilities {
+    .container {
+        @apply lg:max-w-5xl;
+    }
+}
+
 body {
     @apply overflow-x-hidden;
   }
