@@ -1,5 +1,5 @@
 interface ArrowUpRightProps {
-    styles: string
+    styles?: string
 }
 
 const ArrowUpRight = ({styles}: ArrowUpRightProps) => {
