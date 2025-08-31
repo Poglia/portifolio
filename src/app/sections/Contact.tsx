@@ -23,7 +23,7 @@ export const ContactSection = () => {
               </p>
             </div>
             <div className="">
-              <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900">
+              <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900 hover:scale-105 transition duration-300 cursor-pointer">
                 <span className="font-semibold">Contact Me</span>
                 <ArrowUpRight />
               </button>
