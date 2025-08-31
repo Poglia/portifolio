@@ -1,8 +1,8 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 export const Header = () => {
-  const sections = ["home", "projects", "about", "contact"];
+  const sections = useMemo(() => ['home', 'about', 'contact'], []);
   const [active, setActive] = useState("home");
 
   useEffect(() => {
