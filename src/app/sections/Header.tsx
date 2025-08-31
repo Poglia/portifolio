@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useState } from "react";
 
 export const Header = () => {
-  const sections = useMemo(() => ["home", "about", "projects", "contact"], []);
+  const sections = useMemo(() => ["home", "projects", "about", "contact"], []);
   const [active, setActive] = useState("home");
 
   useEffect(() => {
