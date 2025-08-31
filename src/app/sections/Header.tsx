@@ -1,12 +1,53 @@
+"use client";
+import { useEffect, useState } from "react";
+
 export const Header = () => {
+  const sections = ["home", "projects", "about", "contact"];
+  const [active, setActive] = useState("home");
+
+  useEffect(() => {
+    const observers = sections.map((id) => {
+      const el = document.getElementById(id);
+      if (!el) {
+        return null;
+      }
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) setActive(id);
+        },
+        { threshold: 0.3, rootMargin: "-100px 0px 0px 0px" }
+      );
+      observer.observe(el);
+      return observer;
+    });
+
+    return () => observers.forEach((obs) => obs?.disconnect());
+  }, [sections]); 
+
+  const handleScrollToSection = (id: string, event: React.MouseEvent) => {
+    event.preventDefault();
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-  <div className="flex justify-center items-center fixed top-3 w-full z-10">
-    <nav className="flex gap-1 p-0.5 border border-white/15 rounded-full bg-white/10 backdrop-blur">
-      <a href="#" className="nav-item">Home</a>
-      <a href="#" className="nav-item">Projects</a>
-      <a href="#" className="nav-item">About</a>
-      <a href="#" className="nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900">Contact</a>
-    </nav>
-  </div>
+    <div className="flex justify-center items-center fixed top-3 w-full z-10">
+      <nav className="flex gap-1 p-0.5 border border-white/15 rounded-full bg-white/10 backdrop-blur">
+        {sections.map((id) => (
+          <a
+            key={id}
+            href={`#${id}`}
+            onClick={(e) => handleScrollToSection(id, e)}
+            className={`nav-item ${
+              active === id ? "bg-white text-gray-900" : ""
+            }`}
+          >
+            {id.charAt(0).toUpperCase() + id.slice(1)}
+          </a>
+        ))}
+      </nav>
+    </div>
   );
 };

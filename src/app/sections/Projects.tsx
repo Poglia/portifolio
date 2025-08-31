@@ -49,7 +49,7 @@ const portfolioProjects = [
 
 export const ProjectsSection = () => {
   return (
-    <section className="pb-16 lg:py-24">
+    <section className="pb-16 lg:py-24" id="projects">
       <div className="container">
         <SectionHeader eyebrow=" Reak-world Results" title=" Featured Projects" description=" See how I transform concepts into engaging difital experiences."/>
         <div className="flex flex-col mt-10 md:mt-20 gap-20">
