@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useState } from "react";
 
 export const Header = () => {
-  const sections = useMemo(() => ['home', 'about', 'contact'], []);
+  const sections = useMemo(() => ["home", "about", "projects", "contact"], []);
   const [active, setActive] = useState("home");
 
   useEffect(() => {
@@ -22,7 +22,7 @@ export const Header = () => {
     });
 
     return () => observers.forEach((obs) => obs?.disconnect());
-  }, [sections]); 
+  }, [sections]);
 
   const handleScrollToSection = (id: string, event: React.MouseEvent) => {
     event.preventDefault();
