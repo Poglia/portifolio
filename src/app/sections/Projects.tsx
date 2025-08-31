@@ -89,7 +89,7 @@ export const ProjectsSection = () => {
                   <a href={project.link}>
                     <button
                       className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl 
-                  font-semibold inline-flex items-center justify-center gap-2 mt-8 "
+                  font-semibold inline-flex items-center justify-center gap-2 mt-8 hover:scale-105 transition duration-300 cursor-pointer"
                     >
                       <span>Visit Live Site</span>
                       <ArrowUpRight styles="size-4" />
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
                   <Image
                     src={project.image}
                     alt={project.title}
-                    className="mt-8 -mb-4 md:-mb-0 lg:mt-0 lg:absolute lg:h-full lg:w-auto lg:max-w-none"
+                    className="mt-8 -mb-4 md:-mb-0 lg:mt-0 lg:absolute lg:h-full lg:w-auto lg:max-w-none hover:scale-105 transition duration-300 cursor-pointer"
                   />
                 </div>
               </div>
