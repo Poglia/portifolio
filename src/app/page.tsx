@@ -7,6 +7,8 @@ import { AboutSection } from "./sections/About";
 import { ContactSection } from "./sections/Contact";
 import { Footer } from "./sections/Footer";
 
+// Teste de commit nas duas Branchs = master e pt-BR
+
 export default function Home() {
   return (
     <div>
