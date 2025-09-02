@@ -114,28 +114,25 @@ export const HeroSection = () => {
               <div className="bg-green-500 absolute inset-0 rounded-full animate-ping-large"></div>
             </div>
             <div className="text-sm font-medium">
-              Available for new projects
+              Disponível para novos projetos
             </div>
           </div>
         </div>
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide ">
-            Building Exceptional User Experiences{" "}
+            A Arte de Criar a Melhor Experiência.
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-            I specializing in transforming designs into functional,
-            high-performing web applications. Let &apos;s discuss your next
-            project
-          </p>
+           Especializado em traduzir designs em código de alta performance, entregando uma experiência digital única para o usuário com aplicações que realmente funcionam.</p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4 ">
           <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl hover:scale-105 transition duration-300 cursor-pointer">
-            <span className="font-semibold ">Explore My Work </span>
+            <span className="font-semibold ">Conheça meus projetos</span>
             <ArrowDown svgSize="size-4" />
           </button>
           <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 px-6  hover:scale-105 transition duration-300 h-12 rounded-xl">
             <span className="">👋</span>
-            <span className="font-semibold ">Let&apos;s connect</span>
+            <span className="font-semibold ">Vamos conversar</span>
           </button>
         </div>
       </div>
