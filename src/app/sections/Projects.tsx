@@ -10,28 +10,28 @@ import { Card } from "../components/Card";
 
 const portfolioProjects = [
   {
+    company: "Poglia Advogados",
+    year: "2024",
+    title: "Light Saas Landing Page",
+    results: [
+      { title: "Aumento de 21,5% nas vendas" },
+      { title: "Expansão de 39% no alcance de clientes" },
+      { title: "Aumento de 50% na velocidade do site" },
+    ],
+    link: "https://youtu.be/7hi5zwO75yc",
+    image: lightSaasLandingPage,
+  },
+  {
     company: "Acme Corp",
     year: "2022",
     title: "Dark Saas Landing Page",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Aumento de 35% no tráfego mobile" },
+      { title: "Aprimoramento de 40% na experiência do usuário" },
+      { title: "Aumento de 200% na velocidade do site" },
     ],
     link: "https://youtu.be/4k7IdSLxh6w",
     image: darkSaasLandingPage,
-  },
-  {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
-    results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
-    ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
   },
   {
     company: "Quantum Dynamics",
@@ -51,7 +51,11 @@ export const ProjectsSection = () => {
   return (
     <section className="pb-16 lg:py-24" id="projects">
       <div className="container">
-        <SectionHeader eyebrow=" Reak-world Results" title=" Featured Projects" description=" See how I transform concepts into engaging difital experiences."/>
+        <SectionHeader
+          eyebrow="Resultados Reais"
+          title="Projetos em Destaque"
+          description="Veja como transformo conteitos em experiências digitais cativantes."
+        />
         <div className="flex flex-col mt-10 md:mt-20 gap-20">
           {portfolioProjects.map((project, projectIndex) => (
             <Card
