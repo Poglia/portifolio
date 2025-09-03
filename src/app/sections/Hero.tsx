@@ -123,7 +123,7 @@ export const HeroSection = () => {
             A Arte de Criar a Melhor Experiência.
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-           Especializado em traduzir designs em código de alta performance, entregando uma experiência digital única para o usuário com aplicações que realmente funcionam.</p>
+           Especializado em transformar sonhos em realidade através da linha de código, entregando uma experiência digital única para o usuário sem deixar de lado a segurança e a eficiencia.</p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4 ">
           <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl hover:scale-105 transition duration-300 cursor-pointer">
