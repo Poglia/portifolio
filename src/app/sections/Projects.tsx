@@ -38,9 +38,9 @@ const portfolioProjects = [
     year: "2023",
     title: "AI Startup Landing Page",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Tráfego móvel aumentado em 35%" },
+      { title: "Melhora na retenção de usuários em 20%" },
+      { title: "Redução de custos operacionais em 25%" },
     ],
     link: "https://youtu.be/Z7I5uSRHMHg",
     image: aiStartupLandingPage,
