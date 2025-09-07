@@ -105,10 +105,10 @@ export const AboutSection = () => {
                     drag
                     dragConstraints={constrainRef}
                   >
-                    <span className="font-medium text-gray-950">
+                    <span className="font-medium md:font-bold text-gray-950">
                       {hobby.title}
                     </span>
-                    <span>{hobby.memoji}</span>
+                    <span className="md:text-xl">{hobby.memoji}</span>
                   </motion.div>
                 ))}
               </div>
