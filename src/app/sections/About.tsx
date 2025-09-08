@@ -55,9 +55,9 @@ export const AboutSection = () => {
     <div className="py-20 lg:py-28" id="about">
       <div className="container">
         <SectionHeader
-          eyebrow="About Me"
-          title="A Glimpse Into My World"
-          description="Learn More About Who I Am, what I Do, and Why I Do It."
+          eyebrow="Sobre mim"
+          title="Um Olhar Sobre o Meu Mundo"
+          description="Descubra mais sobre mim, meu trabalho e minhas habilidades."
         />
         <div className="mt-20 flex flex-col gap-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5 md:gap-8 lg:grid-cols-3">
