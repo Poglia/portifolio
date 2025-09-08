@@ -63,7 +63,7 @@ export const AboutSection = () => {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5 md:gap-8 lg:grid-cols-3">
             <Card className="h-[320px] md:col-span-2 lg:col-span-1">
               <CardHeader
-                title="My Reads"
+                title="Minha História"
                 description="Explore the books shaping my perspectives."
               ></CardHeader>
               <div className="w-40 mx-auto mt-2 md:mt-0">
