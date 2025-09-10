@@ -1,7 +1,7 @@
 "use client";
 import { Card } from "../components/Card";
 import { SectionHeader } from "../components/SectionHeader";
-import bookImage from "@/assets/images/book-cover.png";
+import livro from "@/assets/images/livro.png";
 import Image from "next/image";
 import mapImage from "@/assets/images/map.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
@@ -60,17 +60,17 @@ export const AboutSection = () => {
           description="Learn More About Who I Am, what I Do, and Why I Do It."
         />
         <div className="mt-20 flex flex-col gap-8">
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-5 md:gap-8 lg:grid-cols-3">
-            <Card className="h-[320px] md:col-span-2 lg:col-span-1">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-5 md:gap-8 lg:grid-cols-5">
+            <Card className="h-[320px] md:col-span-2 lg:col-span-2">
               <CardHeader
                 title="My Reads"
                 description="Explore the books shaping my perspectives."
               ></CardHeader>
-              <div className="w-40 mx-auto mt-2 md:mt-0">
-                <Image src={bookImage} alt="book" />
+              <div className="max-w-64 mx-auto mt-2 md:-mt-20 hover:scale-110 hover:cursor-pointer">
+                <Image src={livro} alt="book" />
               </div>
             </Card>
-            <Card className="h-[320px] md:col-span-3 lg:col-span-2">
+            <Card className="h-[320px] md:col-span-3 lg:col-span-3">
               <div>
                 <CardHeader
                   title="My Toolbox"
