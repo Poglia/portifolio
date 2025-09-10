@@ -64,7 +64,7 @@ export const AboutSection = () => {
             <Card className="h-[320px] md:col-span-2 lg:col-span-1">
               <CardHeader
                 title="Minha História"
-                description="Explore the books shaping my perspectives."
+                description="Explore minha jornada e os caminhos que me trouxeram até aqui"
               ></CardHeader>
               <div className="w-40 mx-auto mt-2 md:mt-0">
                 <Image src={bookImage} alt="book" />
