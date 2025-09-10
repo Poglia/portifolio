@@ -7,11 +7,18 @@ import ChromeIcon from "@/assets/svg/Chrome";
 import { TechIcon } from "../components/TechIcon";
 import { twMerge } from "tailwind-merge";
 import { Fragment } from "react";
+import TypeScriptIcon from "@/assets/svg/Typescript";
+import PHPicon from "@/assets/svg/PHP";
+import NodeIcon from "@/assets/svg/Node";
 
 const toolboxItems = [
   {
     title: "Javascript",
     IconType: JavascriptIcon,
+  },
+  {
+    title: "TypeScript",
+    IconType: TypeScriptIcon,
   },
   {
     title: "HTML5",
@@ -28,6 +35,18 @@ const toolboxItems = [
   {
     title: "React",
     IconType: ReactIcon,
+  },
+  {
+    title: "React Native",
+    IconType: ReactIcon,
+  },
+  {
+    title: "PHP",
+    IconType: PHPicon,
+  },
+  {
+    title: "Node.js",
+    IconType: NodeIcon,
   },
   {
     title: "Chrome",
