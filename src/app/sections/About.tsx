@@ -73,8 +73,8 @@ export const AboutSection = () => {
             <Card className="h-[320px] md:col-span-3 lg:col-span-2">
               <div>
                 <CardHeader
-                  title="My Toolbox"
-                  description="Explore the technologies and tools I use to craft expectional digital experiences."
+                  title="Minha Stack"
+                  description="As tecnologias e ferramentas que dão vida às minhas criações digitais."
                   className=""
                 ></CardHeader>
               </div>
