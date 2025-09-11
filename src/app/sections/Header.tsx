@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
+import { scrollToSection } from "@/utils/scrollToSection";
 
 export const Header = () => {
   const sections = useMemo(() => ["home", "projects", "about", "contact"], []);
@@ -24,14 +25,6 @@ export const Header = () => {
     return () => observers.forEach((obs) => obs?.disconnect());
   }, [sections]);
 
-  const handleScrollToSection = (id: string, event: React.MouseEvent) => {
-    event.preventDefault();
-    const el = document.getElementById(id);
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <div className="flex justify-center items-center fixed top-3 w-full z-10">
       <nav className="flex gap-1 p-0.5 border border-white/15 rounded-full bg-white/10 backdrop-blur">
@@ -39,7 +32,7 @@ export const Header = () => {
           <a
             key={id}
             href={`#${id}`}
-            onClick={(e) => handleScrollToSection(id, e)}
+            onClick={(e) => scrollToSection(id, e)}
             className={`nav-item ${
               active === id ? "bg-white text-gray-900" : ""
             }`}
