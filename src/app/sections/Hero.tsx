@@ -10,7 +10,10 @@ import SparkleIcon from "@/assets/svg/Sparkle";
 
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip" id="home">
+    <div
+      className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip"
+      id="home"
+    >
       <div className="absolute inset-0 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
         <div
           className="absolute inset-0 -z-30 opacity-5"
@@ -123,17 +126,24 @@ export const HeroSection = () => {
             A Arte de Criar a Melhor Experiência.
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-           Especializado em transformar sonhos em realidade através da linha de código, entregando uma experiência digital única para o usuário sem deixar de lado a segurança e a eficiencia.</p>
+            Especializado em transformar sonhos em realidade através da linha de
+            código, entregando uma experiência digital única para o usuário sem
+            deixar de lado a segurança e a eficiencia.
+          </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4 ">
           <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl hover:scale-105 transition duration-300 cursor-pointer">
             <span className="font-semibold ">Conheça meus projetos</span>
             <ArrowDown svgSize="size-4" />
           </button>
-          <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 px-6  hover:scale-105 transition duration-300 h-12 rounded-xl">
+          <a
+            href="https://wa.me/5554999768893?text=Oi%20👋,%20vi%20seu%20portfólio%20e%20achei%20interessante.%20Podemos%20conversar?"
+            target="_blank"
+            className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 px-6  hover:scale-105 transition duration-300 h-12 rounded-xl"
+          >
             <span className="">👋</span>
             <span className="font-semibold ">Vamos conversar</span>
-          </button>
+          </a>
         </div>
       </div>
     </div>
