@@ -137,7 +137,7 @@ export const HeroSection = () => {
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4 ">
           <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl hover:scale-105 transition duration-300 cursor-pointer" onClick={() => scrollToSection("projects")}>
-            <span className="font-semibold ">Explore My Work </span>
+            <span className="font-semibold ">Conheça meus projetos</span>
             <ArrowDown svgSize="size-4" />
           </button>
           <a
