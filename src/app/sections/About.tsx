@@ -12,12 +12,12 @@ import { useRef } from "react";
 
 const hobbies = [
   { title: "Travel", memoji: "🌍", left: "2%", top: "0%" },
-  { title: "Study languages", memoji: "🗺️", left: "20%", top: "5%" },
-  { title: "Read books", memoji: "📚", left: "5%", top: "40%" },
+  { title: "Study Languages", memoji: "🗺️", left: "20%", top: "5%" },
+  { title: "Read Books", memoji: "📚", left: "5%", top: "40%" },
   { title: "Soccer", memoji: "⚽", left: "70%", top: "45%" },
-  { title: "Game development", memoji: "🕹️", left: "10%", top: "70%" },
-  { title: "Play video games", memoji: "🎮", left: "60%", top: "80%" },
-  { title: "Comedy series", memoji: "📺", left: "55%", top: "0%" },
+  { title: "Game Development", memoji: "🕹️", left: "10%", top: "70%" },
+  { title: "Play Video Games", memoji: "🎮", left: "60%", top: "80%" },
+  { title: "Comedy Series", memoji: "📺", left: "55%", top: "0%" },
   { title: "Gym", memoji: "🏋️", left: "35%", top: "35%" },
 ];
 export const AboutSection = () => {
