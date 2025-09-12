@@ -15,16 +15,16 @@ export const ContactSection = () => {
           <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
             <div>
               <h2 className="font-serif text-2xl md:text-3xl">
-                Let&apos;s create something amazing together
+                Vamos criar algo incrível juntos
               </h2>
               <p className="text-sm md:text-base mt-2">
-                Ready to bring your next project to life? Let&apos;s connect and
-                discuss how I can help you achieve your goals.
+                Pronto para dar vida ao seu próximo projeto? Vamos conversar e discutir como posso ajudar você a alcançar seus objetivos.
               </p>
             </div>
             <div className="">
-              <a className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900 hover:scale-105 transition duration-300 cursor-pointer" href="https://www.linkedin.com/in/pedropoglia/">
-                <span className="font-semibold">Contact Me</span>
+              <a className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900 hover:scale-105 transition duration-300 cursor-pointer" href="https://wa.me/5554999768893?text=Oi,%20vi%20seu%20portfólio%20e%20achei%20interessante.%20Podemos%20conversar?"
+              target="_blank">
+                <span className="font-semibold">Fale comigo</span>
                 <ArrowUpRight />
               </a>
             </div>

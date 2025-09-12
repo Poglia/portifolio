@@ -141,7 +141,7 @@ export const HeroSection = () => {
             <ArrowDown svgSize="size-4" />
           </button>
           <a
-            href="https://wa.me/5554999768893?text=Oi%20👋,%20vi%20seu%20portfólio%20e%20achei%20interessante.%20Podemos%20conversar?"
+            href="https://wa.me/5554999768893?text=Oi,%20vi%20seu%20portfólio%20e%20achei%20interessante.%20Podemos%20conversar?"
             target="_blank"
             className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 px-6  hover:scale-105 transition duration-300 h-12 rounded-xl"
           >
