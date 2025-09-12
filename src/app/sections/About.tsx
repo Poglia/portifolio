@@ -11,42 +11,14 @@ import { motion } from "framer-motion";
 import { useRef } from "react";
 
 const hobbies = [
-  {
-    title: "Traveling",
-    memoji: "😊",
-    left: "5%",
-    top: "5%",
-  },
-  {
-    title: "Music",
-    memoji: "😊",
-    left: "50%",
-    top: "5%",
-  },
-  {
-    title: "Reading",
-    memoji: "😊",
-    left: "35%",
-    top: "40%",
-  },
-  {
-    title: "Writing",
-    memoji: "😊",
-    left: "70%",
-    top: "45%",
-  },
-  {
-    title: "Coding",
-    memoji: "😊",
-    left: "10%",
-    top: "70%",
-  },
-  {
-    title: "Gaming",
-    memoji: "😊",
-    left: "60%",
-    top: "70%",
-  },
+  { title: "Viajar", memoji: "🌍", left: "2%", top: "0%" },
+  { title: "Estudar Linguas", memoji: "🗺️", left: "20%", top: "5%" },
+  { title: "Ler Livros", memoji: "📚", left: "5%", top: "40%" },
+  { title: "Futebol", memoji: "⚽", left: "70%", top: "45%" },
+  { title: "Desenvolver jogos", memoji: "🕹️", left: "10%", top: "70%" },
+  { title: "Jogar Videogames", memoji: "🎮", left: "60%", top: "80%" },
+  { title: "Séries de comédia", memoji: "📺", left: "55%", top: "0%" },
+  { title: "Ir na academia", memoji: "🏋️", left: "35%", top: "35%" },
 ];
 export const AboutSection = () => {
   const constrainRef = useRef(null);
@@ -91,8 +63,8 @@ export const AboutSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8 lg:grid-cols-3">
             <Card className="h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-2">
               <CardHeader
-                title="Beyond the Code"
-                description="Explore my interests and hobbies beyond the digital realm."
+                title="Para Além do Código"
+                description="Explore meus interesses e hobbies além do mundo digital."
                 className="px-6 py-6"
               ></CardHeader>
               <div className="relative flex-1" ref={constrainRef}>
