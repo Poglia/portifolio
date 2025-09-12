@@ -11,14 +11,14 @@ import { motion } from "framer-motion";
 import { useRef } from "react";
 
 const hobbies = [
-  { title: "Viajar", memoji: "🌍", left: "2%", top: "0%" },
-  { title: "Estudar Linguas", memoji: "🗺️", left: "20%", top: "5%" },
-  { title: "Ler Livros", memoji: "📚", left: "5%", top: "40%" },
-  { title: "Futebol", memoji: "⚽", left: "70%", top: "45%" },
-  { title: "Desenvolver jogos", memoji: "🕹️", left: "10%", top: "70%" },
-  { title: "Jogar Videogames", memoji: "🎮", left: "60%", top: "80%" },
-  { title: "Séries de comédia", memoji: "📺", left: "55%", top: "0%" },
-  { title: "Ir na academia", memoji: "🏋️", left: "35%", top: "35%" },
+  { title: "Travel", memoji: "🌍", left: "2%", top: "0%" },
+  { title: "Study languages", memoji: "🗺️", left: "20%", top: "5%" },
+  { title: "Read books", memoji: "📚", left: "5%", top: "40%" },
+  { title: "Soccer", memoji: "⚽", left: "70%", top: "45%" },
+  { title: "Game development", memoji: "🕹️", left: "10%", top: "70%" },
+  { title: "Play video games", memoji: "🎮", left: "60%", top: "80%" },
+  { title: "Comedy series", memoji: "📺", left: "55%", top: "0%" },
+  { title: "Gym", memoji: "🏋️", left: "35%", top: "35%" },
 ];
 export const AboutSection = () => {
   const constrainRef = useRef(null);
