@@ -52,7 +52,7 @@ export const AboutSection = () => {
   const constrainRef = useRef(null);
 
   return (
-    <div className="py-20 lg:py-28" id="about">
+    <div className="py-20 lg:py-28" id="sobre">
       <div className="container">
         <SectionHeader
           eyebrow="Sobre mim"

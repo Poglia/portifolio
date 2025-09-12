@@ -16,7 +16,7 @@ export const HeroSection = () => {
   return (
     <div
       className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip"
-      id="home"
+      id="início"
     >
       <div className="absolute inset-0 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
         <div

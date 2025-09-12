@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 import { scrollToSection } from "@/utils/scrollToSection";
 
 export const Header = () => {
-  const sections = useMemo(() => ["home", "projects", "about", "contact"], []);
+  const sections = useMemo(() => ["início", "projetos", "sobre", "contato"], []); 
   const [active, setActive] = useState("home");
 
   useEffect(() => {
